@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>FindMovies</title>
+    <base href="/">
+    <meta name="theme-color" content="#e46452">
+    <meta name="author" content="TechGene Sys.">
+    <meta name="description" content="Search and browse through your favorite movies and series with unlimited access to their best torrents.">
+    <link rel="shortcut icon" href="assets/img/fav-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/fav-icon.png">
+    <style>@-webkit-keyframes rightEnd{0%{left:0}50%{left:-15px}100%{left:0}}@-webkit-keyframes topEnd{0%{top:0}50%{top:-15px}100%{top:0}}@-webkit-keyframes leftEnd{0%{left:0}50%{left:15px}100%{left:0}}@-webkit-keyframes bottomEnd{0%{bottom:0}50%{bottom:-15px}100%{bottom:0}}</style><link rel="stylesheet" href="assets/plugins/lightslider/lightslider.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/plugins/lightslider/lightslider.css"></noscript>
+    <style>*{box-sizing:border-box}body{margin:0px;padding:0px;font-family:poppins;background-color:rgba(151, 151, 151, 0.03)}</style><link rel="stylesheet" href="assets/css/style.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="assets/css/style.css"></noscript>
+
+    <style>
+      .app-loader {
+        height: 100vh !important;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+      }
+      .spinner {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin: auto;
+      }
+      .double-bounce1,
+      .double-bounce2 {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-animation: sk-bounce 2s infinite ease-in-out;
+        animation: sk-bounce 2s infinite ease-in-out;
+      }
+      .double-bounce2 {
+        -webkit-animation-delay: -1s;
+        animation-delay: -1s;
+      }
+      @-webkit-keyframes sk-bounce {
+        0%,
+        100% {
+          -webkit-transform: scale(0);
+        }
+        50% {
+          -webkit-transform: scale(1);
+        }
+      }
+      @keyframes sk-bounce {
+        0%,
+        100% {
+          transform: scale(0);
+          -webkit-transform: scale(0);
+        }
+        50% {
+          transform: scale(1);
+          -webkit-transform: scale(1);
+        }
+      }
+    </style>
+  <style>html,body{height:100%}body{margin:0;font-family:Roboto,Helvetica Neue,sans-serif}</style><link rel="stylesheet" href="styles.b24d32ec66448fbe.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.b24d32ec66448fbe.css"></noscript></head>
+  <body class="hold-transition">
+    <app-root>
+      <div class="app-loader">
+        <div class="spinner">
+          <div class="double-bounce1 mat-bg-primary" style="background: #fcc02e;"></div>
+          <div class="double-bounce2 mat-bg-accent" style="background: #03a9f4;"></div>
+        </div>
+      </div>
+    </app-root>
+    <noscript>Please enable JavaScript to continue using this application.</noscript>
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/webfont.min.js"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {"families":["Lato:300,400,700,900"]},
+            custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css']},
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+        });
+    </script>
+    <script type="text/javascript" src="assets/plugins/lightslider/lightslider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <script>eruda.init();</script>
+  <script src="runtime.dd91ec5dc9a16bd2.js" type="module"></script><script src="polyfills.859312916f07e33c.js" type="module"></script><script src="main.f32efc465aa8e6bb.js" type="module"></script>
+
+</body></html>
